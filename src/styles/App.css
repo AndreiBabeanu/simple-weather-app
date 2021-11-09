@@ -1,0 +1,51 @@
+.app__container {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app__background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(70%), contrast(120%);
+}
+
+.app__card-container {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.app__input-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+  /* border: 1px solid red; */
+}
+
+.app__input {
+  height: 2rem;
+  max-width: 400px;
+  /* width: 50%; */
+  border-radius: 20px;
+  border: none;
+  opacity: 0.6;
+  padding: 0.33rem;
+  padding-left: 2rem;
+  font-size: 2rem;
+}
+
+.app__input:focus {
+  outline: none;
+  /* border-color: red; */
+  /* background-color: red; */
+}
